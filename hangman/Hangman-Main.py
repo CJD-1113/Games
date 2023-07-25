@@ -14,7 +14,7 @@ separator = ", "
 
 #Opens word list and selects random word
 line = random.randint(0, 2863)
-file = open('wordlist.txt')
+file = open('Wordlist.txt')
 content = file.readlines()
 word = content[line].lower().strip()
 length = len(word)
